@@ -12,6 +12,7 @@ function App() {
         const data = await response.json();
         const firstCountry = data[1];
         setCountries(firstCountry);
+        console.log(firstCountry);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -25,7 +26,7 @@ function App() {
     <div className="App">
       <div className='to'>
         <h2>{countries.name.common}</h2>
-        <img src={countries.flags.png}/>
+        <img alt="" src={countries.flags.png}/>
       </div>
     </div>
   );
