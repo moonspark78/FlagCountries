@@ -3,9 +3,9 @@ import "./Cards.css"
 
 export const Cards = ({countries}) => {
   return (
-    <div className='card'>
+    <div className='card-container'>
       {countries.map((country, index) => (
-          <div key={index}>
+          <div key={index} className='card'>
             <h3>{country.name.common}</h3>
             <p>Capital: {country.capital}</p>
             {country.flags.png && (
