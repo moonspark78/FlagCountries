@@ -10,6 +10,8 @@ function App() {
       try {
         const response = await fetch('https://restcountries.com/v3.1/all');
         const data = await response.json();
+        const firstCountry = data[1];
+        setCountries(firstCountry);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -22,8 +24,8 @@ function App() {
   return (
     <div className="App">
       <div className='to'>
-        <h2>title</h2>
-        <img src={logo}/>
+        <h2>{countries.name.common}</h2>
+        <img src={countries.flags.png}/>
       </div>
     </div>
   );
