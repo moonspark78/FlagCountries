@@ -1,0 +1,13 @@
+.card{
+
+    position: relative;
+    margin-top: 3rem;
+    padding: 1.5px;
+    border: solid 1px black;
+}
+
+.card img{
+    width: 100%;
+    height: 75%;
+    transition: 0.5s;
+  }

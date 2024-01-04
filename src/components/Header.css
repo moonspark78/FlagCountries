@@ -3,8 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: #343540;
     padding: 6px 7%;
+
 }
 
 .logo{

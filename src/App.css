@@ -7,8 +7,14 @@
 
 header{
   width: 100vw;
-  min-height: 100vh;
   background: #ced8ff;
+  margin-bottom: 80px;
 }
 
- 
+.content{
+  width: 80%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
