@@ -1,3 +1,40 @@
 .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 6px 7%;
+}
 
+.logo{
+    cursor: pointer;
+}
+
+.serach-box{
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.serach-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 250px;
+}
+
+.sserach-box input::placeholder{
+    color: #fff;
+}
+
+.serach-box img{
+    width: 20px;
+    cursor: pointer;
 }
