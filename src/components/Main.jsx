@@ -1,7 +1,12 @@
 import React from 'react'
+import {Header} from "./Header"
 
 export const Main = () => {
   return (
-    <div>Main</div>
-  )
+    <div>
+      <header>
+        <Header/>
+      </header>
+    </div>
+    )
 }
