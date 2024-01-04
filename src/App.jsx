@@ -1,3 +1,4 @@
+import logo from "./logo.svg"
 import { useState } from 'react';
 import './App.css';
 
@@ -7,7 +8,10 @@ function App() {
   
   return (
     <div className="App">
-      
+      <div className='to'>
+        <h2>title</h2>
+        <img src={logo}/>
+      </div>
     </div>
   );
 }
